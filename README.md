@@ -4,16 +4,16 @@ This project, completed as my graduation thesis at Bilkent University (Math 490)
 
 The core objective is to evaluate whether increased model complexity (transitioning from classical probabilistic models to deep learning) translates into superior predictive performance in real-world, noise-heavy financial markets.
 
-The report contains detailed mathematical derivations for each model, including the use of Itô's Lemma to solve the GBM stochastic differential equation. You can see the derivations and proofs step by step. Also contains a side-by-side comparison of models grounded in probability theory (GBM, GARCH) versus statistical and neural network approaches (ARIMA, LSTM). 
+The report contains detailed mathematical derivations for each model, including the use of Itô's Lemma to solve the GBM stochastic differential equation. It explains how these models are constructed and how they are used to forecasts prices. It contains higher level, important mathematical derivations and proofs. You can see the steps of derivations and proofs clearly. Also the report contains a side-by-side comparison of models grounded in probability theory (GBM, GARCH) versus statistical and neural network approaches (ARIMA, LSTM). 
 
 All models are trained and tested on real life market data (S&P 500 tracking ETF) which emphasizes practical usability over idealized simulations. 
 
 ## Models Covered
 
 + Geometric Brownian Motion (GBM): Modeling constant drift and volatility through stochastic differential equations.
-+ GARCH(1,1): Addressing volatility clustering by modeling time-varying conditional variance.
-+ ARIMA: A classical statistical benchmark using autoregressive and moving average components to capture linear dependencies.
-+ LSTM Networks: A non-linear, deep learning approach designed to learn complex temporal relationships directly from data.
++ Generalized Autoregressive Conditional Heteroskedasticity (GARCH): Addressing volatility clustering by modeling time-varying conditional variance.
++ Autoregressive Integrated Moving Average (ARIMA): A classical statistical benchmark using autoregressive and moving average components to capture linear dependencies.
++ Long-Short Term Memory (LSTM) Networks: A non-linear, deep learning approach designed to learn complex temporal relationships directly from data.
 
 ## Testing With Real World Data
 
