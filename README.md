@@ -21,6 +21,6 @@ I used daily adjusted closing prices of the SPY ETF, converted them into log-ret
 
 The included report features extensive analysis and deep comments on model performances, and it discusses why certain complex architectures may or may not outperform classical methods in specific financial contexts.
 
-You can see both the report and the code that I wrote for this project in the folders.
+There are still a lof of details and explanations in the report. You can see both the report and the code that I wrote for this project in the folders.
 
 If you have any further questions about the project, you can contact me by: e.anil.polat@gmail.com or https://www.linkedin.com/in/emre-an%C4%B1l-polat-7b05b2262/ 
